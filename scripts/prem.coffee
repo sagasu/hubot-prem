@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot tell me
+#   prem tell me
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -39,5 +39,5 @@ PREM_QU = [
 
 module.exports = (robot) ->
 
-  robot.respond /tell me/i, (msg)->
+  robot.hear /prem tell me/i, (msg)->
     msg.send msg.random(PREM_QU)
