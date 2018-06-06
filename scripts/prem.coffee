@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot prem me
+#   hubot tell me
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -20,6 +20,7 @@ PREM_QU = [
   "This release will not happen.",
   "You call it a code. I call it a joke.",
   "Did you try hitting refresh?",
+  "CBRIS Production is down?",
   "No one uses IE anyway.",
   "Right or wrong, it’s very pleasant to break something from time to time.",
   "Where is the ‘any’ key?",
@@ -38,5 +39,5 @@ PREM_QU = [
 
 module.exports = (robot) ->
 
-  robot.respond /prem me/i, (msg)->
+  robot.respond /tell me/i, (msg)->
     msg.send msg.random(PREM_QU)
