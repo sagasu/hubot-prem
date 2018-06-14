@@ -35,6 +35,12 @@ PREM_QU = [
   "The only system which is truly secure is one which is switched off and unplugged, locked in a titanium lined safe, buried in a concrete bunker, and is surrounded by nerve gas and very highly paid armed guards. Even then, I wouldn’t stake my life on it.",
   "The internet? That thing is still around?",
   "Silicon Valley is the QA department for the rest of the world. It’s where you test out new business models.",
+  "Stop talking and start killing",
+  "Crash your enemies, see them driven before you, and hear the lamentation of the women!",
+  "Only in death your duty to deliver a great quality code ends",
+  "A bug? Traitors, I will not forgive, I never forgive",
+  "One can not stare too long at a sun w/o becoming blind out of its radiance. That's why you should never raise your eyes on me.",
+  "This are the darkest days I have known. The quality is so low, as was never before. I see no hope for you..."
 ]
 
 module.exports = (robot) ->
