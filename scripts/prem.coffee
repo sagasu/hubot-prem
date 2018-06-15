@@ -48,7 +48,11 @@ PREM_QU = [
   "Destroy, for the sake of Destruction",
   "Kill, for the sake of Killing",
   "You shall reap a terrible bounty from the death that I sow in my name",
-  "Their baying chills the heart and spreads icy tendrils of fear through weak mortal souls. And yet worse, yet more terrible to behold, are the huntsmen of this fell pack. Following close upon the Hounds, urging them ever forward, come deformed shapes, running and shrieking, driven by the insatiable blood-hunger of their kind. With twisted crimson bodies they stride across the blighted land, crouched over as if the better to track their prey's terror. Masters of the hunt, they seek the blood of Man to spill at the foot of their master's Skull Throne."
+  "Their baying chills the heart and spreads icy tendrils of fear through weak mortal souls. And yet worse, yet more terrible to behold, are the huntsmen of this fell pack. Following close upon the Hounds, urging them ever forward, come deformed shapes, running and shrieking, driven by the insatiable blood-hunger of their kind. With twisted crimson bodies they stride across the blighted land, crouched over as if the better to track their prey's terror. Masters of the hunt, they seek the blood of Man to spill at the foot of their master's Skull Throne.",
+  "How can a man be happy if he cannot serve me with his whole heart?",
+  "Wisdom is the beginning of fear.",
+  "To die knowing our task is done.",
+  "Success is commemorated; Failure merely remembered."
 ]
 
 module.exports = (robot) ->
