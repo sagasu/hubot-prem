@@ -12,6 +12,7 @@
 #   hubot how are you?
 #   hubot standup
 #   hubot what do you think
+#   hubot announce Prem
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -38,7 +39,7 @@ PREM_QU = [
   "A bug? Traitors, I will not forgive, I never forgive",
   "One can not stare too long at a sun w/o becoming blind out of its radiance. That's why you should never raise your eyes on me.",
   "This are the darkest days I have known. The quality is so low, as was never before. I see no hope for you...",
-  "You were weak. You were a fool. You had the whole galaxy within his grasp and he let it slip away.",
+  "You were weak. You were a fool. You had the whole galaxy within your grasp and he let it slip away.",
   "Hate shall be our weapon.",
   "Impurity shall be our armour.",
   "Burn the body; sear the soul.",
@@ -68,3 +69,6 @@ module.exports = (robot) ->
 
   robot.hear /what do you think/i, (msg)->
     msg.send msg.random(PREM_QU)
+
+  robot.hear /announce Prem/i, (msg)->
+    msg.send "Prem of the House Anandan, the First of His Name, The Unburnt, King of the Offshore, the Clarksons and the First Men, King of Meereen, Khaleesi of the Great Grass Sea, Protector of the Realm, Gentleman Regnant of the Seven Kingdoms, Breaker of Chains and Father of Dragons"
