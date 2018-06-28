@@ -13,6 +13,7 @@
 #   hubot standup
 #   hubot what do you think
 #   hubot announce Prem
+#   hubot kee ghoshana Prem
 #
 # Author:
 #   Mateusz Kopij <sagasu>
