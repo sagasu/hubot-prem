@@ -72,7 +72,9 @@ module.exports = (robot) ->
     msg.send msg.random(PREM_QU)
 
   robot.hear /announce Prem/i, (msg)->
-    msg.send "Prem of the House Anandan, the First of His Name, The Unburnt, King of the Offshore, the Clarksons and the First Men, King of Meereen, Khaleesi of the Great Grass Sea, Protector of the Realm, Gentleman Regnant of the Seven Kingdoms, Breaker of Chains and Father of Dragons"
+    msg.send "Prem of the House Anandan, the First of His Name, The Unburnt, King of the Offshore, the Clarksons and the First Men, King of Marine, Khaleesi of the Great Grass Sea, Protector of the Docks, Gentleman Regnant of the Seven Kingdoms, Breaker of Chains and Father of Dragons"
+    msg.send "https://scontent-lhr3-1.cdninstagram.com/vp/d2074c48957ed70dacc4fd278e54eef1/5BE76A42/t51.2885-15/e35/35483185_215869162575343_1562987187979419648_n.jpg"
 
   robot.hear /kee ghoshana Prem/i, (msg)->
     msg.send "Prabhakarna SriPalaWardhana Atapattu JayaSuriya LaxmanSivramKrishna ShivaVenkata RajShekhara Sriniwasana Trichipalli YekyaParampeel Parambatur ChinnaSwami MutuSwami VenuGopala Iyer"
+    msg.send "https://scontent-lhr3-1.cdninstagram.com/vp/d2074c48957ed70dacc4fd278e54eef1/5BE76A42/t51.2885-15/e35/35483185_215869162575343_1562987187979419648_n.jpg"
