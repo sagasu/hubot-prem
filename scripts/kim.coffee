@@ -17,25 +17,14 @@
 # Author:
 #   Mateusz Kopij <sagasu>
 
-PREM_QU = [
-  "Bugz, Bugz, Bugz",
+KIM_QU = [
   "Worship me, mere pesant",
-  "Don't make me deploy you to UAT",
-  "You call it a code. I call it a joke.",
-  "Did you try hitting refresh?",
-  "CBRIS Production is down?",
-  "No one uses IE anyway.",
-  "Right or wrong, it’s very pleasant to break something from time to time.",
-  "Where is the ‘any’ key?",
-  "f u cn rd ths, u cn gt a gd jb n sftwr tstng",
-  "To an optimist, the glass is half full. To a pessimist, the glass is half empty. To me, the glass is twice as big as it needs to be.",
-  "Irreproducible bugs become highly reproducible right after delivery to the customer.",
-  "All code is guilty until proven innocent.",
-  "Software and cathedrals are much the same: first we build them, then we pray.",
-  "The only system which is truly secure is one which is switched off and unplugged, locked in a titanium lined safe, buried in a concrete bunker, and is surrounded by nerve gas and very highly paid armed guards. Even then, I wouldn’t stake my life on it.",
-  "Stop talking and start killing",
+  "CBRIS Production is down, I nuked it",
+  "Nuke Nuke Nuke!",
+  "I am looking for some dev to park my nuke.",
+  "Stop talking and start nuking",
   "Crash your enemies, see them driven before you, and hear the lamentation of the women!",
-  "Only in death your duty to deliver a great quality code ends",
+  "Only in death your duty to nuke ends",
   "A bug? Traitors, I will not forgive, I never forgive",
   "One can not stare too long at a sun w/o becoming blind out of its radiance. That's why you should never raise your eyes on me.",
   "This are the darkest days I have known. The quality is so low, as was never before. I see no hope for you...",
@@ -59,16 +48,13 @@ PREM_QU = [
 module.exports = (robot) ->
 
   robot.hear /tell me/i, (msg)->
-    msg.send msg.random(PREM_QU)
+    msg.send msg.random(KIM_QU)
 
   robot.hear /how are you?/i, (msg)->
-    msg.send msg.random(PREM_QU)
-
-  robot.hear /standup/i, (msg)->
-    msg.send msg.random(PREM_QU)
+    msg.send msg.random(KIM_QU)
 
   robot.hear /what do you think/i, (msg)->
-    msg.send msg.random(PREM_QU)
+    msg.send msg.random(KIM_QU)
 
   robot.hear /announce Prem/i, (msg)->
     msg.send "Prem of the House Anandan, the First of His Name, The Unburnt, King of the Offshore, the Clarksons and the First Men, King of Marine, Khaleesi of the Great Grass Sea, Protector of the Docks, Gentleman Regnant of the Seven Kingdoms, Breaker of Chains and Father of Dragons"
