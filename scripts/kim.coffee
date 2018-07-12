@@ -44,6 +44,7 @@ KIM_QU = [
   "To die knowing our task is done.",
   "Success is commemorated; Failure merely remembered.",
   "Yet I still endure",
+  "The realm of death is my body. Hear me beacause I am all."
 ]
 
 module.exports = (robot) ->
