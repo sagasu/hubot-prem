@@ -42,7 +42,8 @@ KIM_QU = [
   "How can a man be happy if he cannot serve me with his whole heart?",
   "Wisdom is the beginning of fear.",
   "To die knowing our task is done.",
-  "Success is commemorated; Failure merely remembered."
+  "Success is commemorated; Failure merely remembered.",
+  "Yet I still endure",
 ]
 
 module.exports = (robot) ->
