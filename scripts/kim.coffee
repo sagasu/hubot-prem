@@ -18,7 +18,7 @@
 #   Mateusz Kopij <sagasu>
 
 KIM_QU = [
-  "Worship me, mere pesant",
+  "Worship me, mere peasant",
   "CBRIS Production is down, I nuked it",
   "Nuke Nuke Nuke!",
   "I am looking for some dev to park my nuke.",
