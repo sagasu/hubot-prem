@@ -44,7 +44,7 @@ KIM_QU = [
   "To die knowing our task is done.",
   "Success is commemorated; Failure merely remembered.",
   "Yet I still endure",
-  "The realm of death is my body. Hear me beacause I am all.",
+  "The realm of death is my body. Hear me because I am all.",
   "I will stride forth like a conqueror of all I will shatter the shields of my enemies, pull down their towers and tear their beating harts from their chest.",
   "All shall kneel before me, all shall bow.",
   "Kim is all things, all is one in Kim.",

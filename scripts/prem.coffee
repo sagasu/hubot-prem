@@ -19,7 +19,7 @@
 
 PREM_QU = [
   "Bugz, Bugz, Bugz",
-  "Worship me, mere pesant",
+  "Worship me, mere peasants",
   "Don't make me deploy you to UAT",
   "You call it a code. I call it a joke.",
   "Did you try hitting refresh?",
