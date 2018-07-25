@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "Mateusz Kopij <sagasu@gmail.com>",
-  "description": "Prem is an lazy qa bot",
+  "description": "Prem is an lazy qa bot with ambition to be world leader.",
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
